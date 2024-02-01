@@ -2,11 +2,11 @@
 
 ## Story
 
-Your friend and you decided to volunteer for a non-profit animal shelter,
-'Furry Friends'. They are very friendly, but not tech-savvy people. They need you to put together a website for the
+I decided to volunteer for a non-profit animal shelter,
+'Furry Friends'. They are very friendly, but not tech-savvy people. They need me to put together a website for the
 shelter.
 
-They also would like to be able to view the website from the internal network, while you develop it.
+They also would like to be able to view the website from the internal network, while I develop it.
 
 First they would like to see a simple webpage with the following content:
 
@@ -24,11 +24,11 @@ First they would like to see a simple webpage with the following content:
   <pre>
   John Doe
   john.doe@furryfriends.org
-  Budapest, Hajnalka street 3.
-  +1-202-555-0125
+  Timisoara, Strada Cozia, nr. 41
+  +40754947302
   </pre>
 
-## What are you going to learn?
+## What am I going to practice in this project?
 
  - web development (HTML) basics
  - what webservers do?
@@ -53,28 +53,3 @@ First they would like to see a simple webpage with the following content:
     - when the command is started, the docker container is running a webserver. Could be: apache aka. httpd, etc...
     - the container's ports are exposed
     - the container's volumes are mapped to the development directory. Bind mounts can be used...
-
-## General requirements
-
-None
-
-## Hints
-
-- While working in a Windows environment, you can utilize Linux commands in different ways:
-  - using the `git bash` command line, which is installed by `Git for Windows` and based on MinGW (Minimalist GNU for Windows)
-  - by installing `CygWin`, and adding it to the `PATH`
-  - by using the WSL (Windows Subsystem for Linux)
-  - inside a docker container
-  - inside a virtual machine
-  - using PuTTY to ssh into a Linux/Unix server.
-
-## Background materials
-
-- <i class="far fa-book-open"></i> [Linux command line intro](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
-- <i class="far fa-book-open"></i> [Linux command line intro (for Cygwin)](http://www2.imm.dtu.dk/courses/02333/cygwin_tutorial/index.html)
-- <i class="far fa-book-open"></i> [What is a webserver?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_server)
-- <i class="far fa-video"></i> [HTML in 5 minutes](https://www.youtube.com/watch?v=salY_Sm6mv4)
-- <i class="far fa-book-open"></i> [Basic HTML course](https://htmldog.com/guides/html/beginner/)
-- <i class="far fa-book-open"></i> [W3schools HTML course (for reference)](https://www.w3schools.com/html/default.asp)
-- <i class="far fa-video"></i> [What is docker?](https://www.youtube.com/watch?v=JSLpG_spOBM)
-- <i class="far fa-book-open"></i> [Docker - get started](https://docs.docker.com/get-started/overview/)
